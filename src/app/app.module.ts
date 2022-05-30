@@ -12,22 +12,17 @@ import { ProductAlertComponent } from './product-alert/product-alert.component';
   imports: [
     BrowserModule,
     ReactiveFormsModule,
-    RouterModule.forRoot([
-      { path: '', component: ProductListComponent },
-    ])
+    RouterModule.forRoot([{ path: '', component: ProductListComponent }]),
   ],
   declarations: [
     AppComponent,
     TopBarComponent,
     ProductListComponent,
-    ProductAlertComponent
+    ProductAlertComponent,
   ],
-  bootstrap: [
-    AppComponent
-  ]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
-
+export class AppModule {}
 
 /*
 Copyright Google LLC. All Rights Reserved.
