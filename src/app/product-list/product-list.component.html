@@ -9,6 +9,14 @@
     [product]="product"
     (notify)="onNotify()"
   ></app-product-alert>
+  <h3>
+    <a
+      [title]="product.name + ' details'"
+      [routerLink]="['/products', product.id]"
+    >
+      {{ product.name }}
+    </a>
+  </h3>
 </div>
 <!-- 
 Copyright Google LLC. All Rights Reserved.
